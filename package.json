@@ -1,0 +1,33 @@
+{
+  "name": "jrcode-dark-theme",
+  "displayName": "JRCode dark",
+  "description": "jrcode-dark is a simple but awesome dark theme fro VS Code",
+  "version": "1.0.0",
+  "publisher": "Jessusdev",
+  "icon": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessur2030/jrcode-dark-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "jrcode",
+    "jrcode dark"
+  ],
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JRcode dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jrcode dark-color-theme.json"
+      }
+    ]
+  }
+}
